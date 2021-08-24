@@ -1,5 +1,2 @@
-package br.com.zup;
-
-public class Exercicio2 {
-
+package br.com.zup;public class Exercicio2 {
 }
