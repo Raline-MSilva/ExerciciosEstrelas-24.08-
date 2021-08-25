@@ -1,18 +1,20 @@
 package br.com.zup;
 
+import java.util.Scanner;
+
 public class Exercicio2 {
     public static void main(String[] args) {
+        // Instanciando o Scanner
+        Scanner leitor = new Scanner(System.in);
+
         // criando as variaveis das notas
-        int nota1 = 7;
-        int nota2 = 5;
-        int nota3 = 6;
-        int nota4 = 8;
+        double nota1 = 7;
+        double nota2 = 5;
+        double nota3 = 6;
+        double nota4 = 8;
+        double somaDasNotas = nota1 + nota2 + nota3 + nota4;
+        double mediaDasNotas = somaDasNotas / 4;
 
-        // criando a soma das notas
-        float somaDasNotas = nota1 + nota2 + nota3 + nota4;
-
-        //dividindo as notas e exibindo - as
-        float mediaDasNotas = somaDasNotas / 4;
         System.out.println("Sua média é " + mediaDasNotas);
 
     }
