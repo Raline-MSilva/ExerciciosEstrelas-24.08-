@@ -1,15 +1,19 @@
 package br.com.zup;
 
+import java.util.Scanner;
+
 public class Exercicio3 {
     public static void main (String[] args) {
+        Scanner leitor = new Scanner(System.in);
 
-        // criando as variaveis
-        float metros = 2.5F;
-        float centimetros = 1000;
+        System.out.println("Por favor digite os metros ");
+        float metros = leitor.nextFloat();
+        System.out.println("Por favor digite os centimetros");
+        float centimetros = leitor.nextFloat();
 
         //calculando
-        float conversao = metros * centimetros;
+        float conversao = metros * 100;
         float resultado = conversao;
-        System.out.println("Temos " + resultado);
+        System.out.println("Sua conversão deu " + resultado);
     }
 }
