@@ -10,11 +10,11 @@ public class Exercicio7 {
 
         //criando variaveis
         double pesoMaximoPeixe = 50;
-        double pesoDoPeixeAdicional = peso.nextDouble();
+        double pesoDoPeixeExcedente = peso.nextDouble();
         double multa = 4;
 
         //calculo do excedente
-        double excedente = pesoDoPeixeAdicional - pesoMaximoPeixe;
+        double excedente = pesoDoPeixeExcedente - pesoMaximoPeixe;
         double resultado = excedente * multa;
 
         System.out.println("Valor da multa a pagar é R$" + resultado);
