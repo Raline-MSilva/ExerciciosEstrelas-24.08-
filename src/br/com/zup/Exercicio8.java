@@ -5,7 +5,6 @@ public class Exercicio8 {
         float tamanhoMetro = 6F;
         float litro = 18F;
         float custo = 80F;
-
         float calculo = litro / tamanhoMetro;
 
     }
