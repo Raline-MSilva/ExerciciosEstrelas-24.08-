@@ -1,14 +1,18 @@
 package br.com.zup;
 
+import java.util.Scanner;
+
 public class Exercicio6 {
     public static void main (String[] args) {
+        Scanner leitor = new Scanner(System.in);
 
-        //definindo as horas
-        int recebePorHora = 35;
-        int horasTrabalhadas = 40;
+        System.out.println("Por favor digite os ganhos por hora ");
+        int recebe = leitor.nextInt();
+        System.out.println("Por favor digite as horas trabalhadas ");
+        int trabalhada = leitor.nextInt();
 
         //calculo das horas
-        int salario = recebePorHora * horasTrabalhadas;
+        int salario = recebe * trabalhada;
 
         //calculando os descontos
         float descontoIR = 0.11F * salario;
